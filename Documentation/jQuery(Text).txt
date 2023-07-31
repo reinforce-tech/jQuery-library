@@ -1,0 +1,13 @@
+Text jQuery
+
+This let you change text and the way you should want.
+
+$("h1").text("bye");
+$("button").text("Click me");
+$("h2").text("click me");
+
+-------------------------------
+
+$("h2").html("<b>Hello</b>")
+use when making a innerHTML
+
