@@ -1,1 +1,18 @@
 This is a documentation for JQuery.
+
+$("element tag").css("color", red);
+
+-this use to target a certain element in tag, that change the css color to make it red.
+
+
+$("h1").addClass("css class");
+$("h1").removeClass("css class");
+
+//add multiple class is to put it on
+the same quotation with space next to it 
+
+$("h1").addClass("h1 margin");
+$("h1").removeClass("h1 margin");
+
+
+
