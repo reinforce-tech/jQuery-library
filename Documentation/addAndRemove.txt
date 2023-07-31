@@ -1,0 +1,8 @@
+
+$("h1").before("<button>New</button>");//just add just before
+
+$("h1").after("<button>New</button>");
+
+$("h1").prepend("<button>New</button>"); // add just after the opening tag
+
+$("h1").append("<button>New</button>");

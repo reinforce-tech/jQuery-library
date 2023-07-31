@@ -11,5 +11,5 @@ $("h2").text("click me");
 $(".hello h1 ").html("<i>Hello</i>");
 
 $("h2").html("<b>Hello</b>")
-use when making a innerHTML
+//use when making a innerHTML
 

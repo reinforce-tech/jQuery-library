@@ -1,1 +1,3 @@
-$(".hello h1 ").html("<i>Hello</i>");
+$("h1").on("click", () => {
+	$("h1").css("color", "blue");
+});

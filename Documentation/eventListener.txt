@@ -1,0 +1,43 @@
+
+// click is a eventListener shortcut
+
+$("h1").click(function(){
+  $("h1").css(
+    "color",
+    "midnigth blue"
+  )
+});
+
+you can also do this  "this keyword"
+
+$(".hello h1").click(function () {
+	$(this).css("color", "blue");
+});
+ 
+ --------------------------------
+jquery will find all button element and it will have a eventListener
+
+$("button").click(function(){
+  $("h1").css("color", "green");
+});
+
+
+---------------------------------------
+
+you can also add an keypress, this will help you locate the key press on your console log input.
+
+
+$("input (or any other target element)").keypress(function(eventpress){
+  console.log(eventListener.key);
+});
+
+
+$(document).keypress(function (evt) {
+	$("h1").text(evt.key);
+});
+
+or
+
+$("h1").on(function () =>{
+  $("h1").css("color", "blue");
+})

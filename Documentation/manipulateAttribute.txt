@@ -1,0 +1,7 @@
+
+$("img").attr("src");
+
+$("a").attr("href", "https");
+
+$("h1").attr("class");
+
