@@ -1,5 +1,14 @@
 This is a documentation for JQuery.
 
+jQuery
+
+you can add jquery by just adding a npm or cdn on your script.
+
+=> https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js
+
+-----------------------------------------------------------------------------------
+(Adding style)
+
 $("element tag").css("color", red);
 
 -this use to target a certain element in tag, that change the css color to make it red.
@@ -8,7 +17,7 @@ $("h1").addClass("css class");
 
 $("h1").removeClass("css class");
 
---------------------------------------------
+---------------------------------------------------------------------
 
 //add multiple class is to put it on
 the same quotation with space next to it 
@@ -17,7 +26,7 @@ $("h1").addClass("h1 margin");
 
 $("h1").removeClass("h1 margin");
 
---------------------------------------------------
+----------------------------------------------------------------------
 //you can also check if whether or not if 
 our element has a particular class
 
@@ -25,4 +34,4 @@ $("h1").hasClass("margin");
 
 -it will return fals or true, but we have a margin class so it's "true".
 
---------------------------------------------------------
+----------------------------------------------------------------------
