@@ -35,3 +35,22 @@ $("button").on("click", () =>{
 $("button").on("click", () =>{   
   $("h1").slideUp();
 });
+
+$("button").on("click", () =>{   
+  $("h1").slideToggle();
+});
+
+----------------------------------------------------------
+
+$("button").on("click", () =>{   
+  $("h1").animate({margin: });  
+});
+
+$("button").on("click", () =>{   
+  $("h1").slideToggle().slideDown().animate({opacity: 0.5 or ish});
+});
+
+ // better to use numeric value to make it work 
+ // use a string to represent a number value inside a string for it to work.
+
+ -----------------------------------------------------------------
